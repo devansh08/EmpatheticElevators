@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?package liftProjectV1 ?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="liftProjectV1.Controller">
+      <GridPane id="root_layout" alignment="CENTER" layoutX="14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <rowConstraints>
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+          <columnConstraints>
+              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="91.0" minWidth="56.0" prefWidth="91.0" />
+              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="366.0" minWidth="95.0" prefWidth="324.0" />
+              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="196.0" minWidth="0.0" prefWidth="56.0" />
+              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="187.0" minWidth="21.0" prefWidth="51.0" />
+              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="114.0" minWidth="39.0" prefWidth="70.0" />
+          </columnConstraints>
+
+          <Button fx:id="btn_9" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn9Action" text="9" textAlignment="CENTER" GridPane.rowIndex="2" />
+          <Button fx:id="btn_8" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn8Action" text="8" textAlignment="CENTER" GridPane.rowIndex="3" />
+          <Button fx:id="btn_7" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn7Action" text="7" textAlignment="CENTER" GridPane.rowIndex="4" />
+          <Button fx:id="btn_6" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn6Action" text="6" textAlignment="CENTER" GridPane.rowIndex="5" />
+          <Button fx:id="btn_5" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="97.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn5Action" text="5" textAlignment="CENTER" GridPane.rowIndex="6" />
+          <Button fx:id="btn_4" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn4Action" text="4" textAlignment="CENTER" GridPane.rowIndex="7" />
+          <Button fx:id="btn_3" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn3Action" text="3" textAlignment="CENTER" GridPane.rowIndex="8" />
+          <Button fx:id="btn_2" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn2Action" text="2" textAlignment="CENTER" GridPane.rowIndex="9" />
+          <Button fx:id="btn_1" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn1Action" text="1" textAlignment="CENTER" GridPane.rowIndex="10" />
+
+          <Button fx:id="btn_8u" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn8uAction" text="8u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+          <Button fx:id="btn_7u" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn7uAction" text="7u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+          <Button fx:id="btn_6u" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn6uAction" text="6u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+          <Button fx:id="btn_5u" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="97.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn5uAction" text="5u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+          <Button fx:id="btn_4u" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn4uAction" text="4u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+          <Button fx:id="btn_3u" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn3uAction" text="3u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+          <Button fx:id="btn_2u" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn2uAction" text="2u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+          <Button fx:id="btn_1u" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn1uAction" text="1u" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+
+          <Button fx:id="btn_9d" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn9dAction" text="9d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+          <Button fx:id="btn_8d" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn8dAction" text="8d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+          <Button fx:id="btn_7d" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn7dAction" text="7d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+          <Button fx:id="btn_6d" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="97.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn6dAction" text="6d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+          <Button fx:id="btn_5d" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn5dAction" text="5d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+          <Button fx:id="btn_4d" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn4dAction" text="4d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+          <Button fx:id="btn_3d" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn3dAction" text="3d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+          <Button fx:id="btn_2d" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn2dAction" text="2d" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+
+          <Button fx:id="btn_9_panic" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn9PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+          <Button fx:id="btn_8_panic" alignment="CENTER" contentDisplay="CENTER" minHeight="7.0" minWidth="10.0" onAction="#handleBtn8PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+          <Button fx:id="btn_7_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn7PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+          <Button fx:id="btn_6_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="57.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn6PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+          <Button fx:id="btn_5_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="518.0" layoutY="97.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn5PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+          <Button fx:id="btn_4_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn4PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+          <Button fx:id="btn_3_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn3PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+          <Button fx:id="btn_2_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="17.0" minHeight="7.0" minWidth="10.0" onAction="#handleBtn2PanicAction" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+
+
+          <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+              <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+              </rowConstraints>
+
+              <Label fx:id="floor_number" text="9" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+              <Label fx:id="direction" text="UP" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+          </GridPane>
+      <Label text="Inside" GridPane.rowIndex="1" />
+      <Label text="ELEVATOR SIMULATOR" GridPane.columnIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label text="Outside" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="1" />
+      <Button fx:id="btn_inside_panic" alignment="CENTER" contentDisplay="CENTER" layoutX="545.0" layoutY="369.0" minHeight="7.0" minWidth="10.0" style="-fx-background-color: red;" text="PANIC" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="11" onAction="#handleInsidePanic" />
+      <ImageView fx:id="lift_image_view" fitHeight="266.0" fitWidth="263.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="9">
+         <!--<image>
+            <Image url="@lift_close.png" />
+         </image>--></ImageView>
+
+      </GridPane>
+</AnchorPane>
